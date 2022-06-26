@@ -26,6 +26,10 @@
 
 
 / {
+        chosen {
+            zmk,matrix_transform = &five_column_transform;
+        };
+
         behaviors {
             hm: hm {
                 compatible = "zmk,behavior-hold-tap";
